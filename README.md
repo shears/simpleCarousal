@@ -1,0 +1,4 @@
+simpleCarousal
+==============
+
+jquery plugin 
