@@ -1,0 +1,35 @@
+.carousal {
+  overflow: hidden;
+  position: relative;
+}
+.carousal>ul {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.carousal>ul:before,
+.carousal>ul:after {
+    content: " ";
+    display: table;
+}
+
+.carousal>ul:after {
+    clear: both;
+}
+.carousal>ul {
+    *zoom: 1;
+}
+
+.carousal>ul>li{
+  display: block;
+  float: left;
+  overflow: hidden;
+}
+.carousal>ul>li.not-animate{
+  -webkit-transition: none;
+  transition: none;
+}
+
+.carousal .dots li.active{
+  background-color: red;
+}

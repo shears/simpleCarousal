@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<title>carousal test</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="carousal.css">
+</head>
+<body>
+	<div class="carousal" style="margin-left: 500px;width: 300px;">
+		<ul>
+			<li>
+				1.
+        <img src="http://b.hiphotos.baidu.com/image/w%3D310/sign=9a5f982c8501a18bf0eb144eae2e0761/472309f790529822638527c3d5ca7bcb0a46d47f.jpg"/>
+
+			</li>
+			<li>
+        2.
+				<img src="http://b.hiphotos.baidu.com/image/w%3D310/sign=9a5f982c8501a18bf0eb144eae2e0761/472309f790529822638527c3d5ca7bcb0a46d47f.jpg"/>
+			</li>
+			<li>
+        3.
+				<img src="http://b.hiphotos.baidu.com/image/w%3D310/sign=9a5f982c8501a18bf0eb144eae2e0761/472309f790529822638527c3d5ca7bcb0a46d47f.jpg"/>
+			</li>
+			<li>
+        4.
+				<img src="http://b.hiphotos.baidu.com/image/w%3D310/sign=9a5f982c8501a18bf0eb144eae2e0761/472309f790529822638527c3d5ca7bcb0a46d47f.jpg"/>
+			</li>
+      <li>
+        5.
+        <img src="http://b.hiphotos.baidu.com/image/w%3D310/sign=9a5f982c8501a18bf0eb144eae2e0761/472309f790529822638527c3d5ca7bcb0a46d47f.jpg"/>
+      </li>
+		</ul>
+	</div>
+  <button id="back">back</button>
+  <button id="forward">forward</button>
+  <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="carousal.js"></script>
+	<script type="text/javascript">
+    $(".carousal").simpleCarousal({
+      infinite : true,
+      animateDuration: 100,
+      interval : 5000,
+      showKeys : true,
+      dots : true
+    });
+	</script>
+</body>
+</html>
